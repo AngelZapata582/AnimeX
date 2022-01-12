@@ -1,0 +1,15 @@
+.bg_login{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    image-rendering:optimizeQuality;
+    background-image: url(../../assets/img/illust_89446377_20210915_110420.jpg);
+}
+.body{
+    grid-area: content;
+}
+.form-login{
+    margin: auto;
+    border-radius: 15px;
+}
