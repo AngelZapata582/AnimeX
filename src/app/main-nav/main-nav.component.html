@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+    <div class="container-fluid d-flex">
+        <div class="justify-content-start d-flex">
+            <a class="nav-link text_main" href="">Inicio</a>
+            <a class="nav-link text_main" href="">Directorio</a>
+        </div>
+        <div class="justify-content-end d-flex">
+            <a class="nav-link text_main" *ngIf="isLogin">Cerrar Sesion</a>
+            <a class="nav-link text_main" routerLink="login" *ngIf="!isLogin">Iniciar Sesion</a>
+        </div>
+    </div>
+</nav>
+
