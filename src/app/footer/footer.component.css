@@ -1,0 +1,9 @@
+.text_main{
+    color: #f1f1f1;
+    font-family: "Lucida Console", "Courier New", monospace;    
+}
+
+.footer{
+    padding: 5px;
+    grid-area: footer;
+}
