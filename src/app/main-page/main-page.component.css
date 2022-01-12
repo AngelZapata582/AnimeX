@@ -1,0 +1,13 @@
+.card{
+    width: 15%; 
+    height: 20%;
+    margin: 1%;
+}
+
+.body{
+    grid-area: content;
+}
+
+.img{
+    image-rendering: pixelated;
+}
